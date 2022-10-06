@@ -6,5 +6,5 @@ workflows:
     jobs:
       - cypress/run:
           start: npm start
-          wait-on: 'http://localhost:3000'
+          wait-on: "http://localhost:3000"
           command: npx cypress run --headless
