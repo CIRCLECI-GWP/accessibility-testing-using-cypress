@@ -1,6 +1,6 @@
 # Accessibility testing with Cypress
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mwaz/accessibility-testing-with-cypress/tree/fix%2Faccessibility-violations.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mwaz/accessibility-testing-with-cypress/tree/fix%2Faccessibility-violations)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/CIRCLECI-GWP/accessibility-testing-with-cypress/tree/fix%2Faccessibility-violations.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/CIRCLECI-GWP/accessibility-testing-with-cypress/tree/fix%2Faccessibility-violations)
 
 A repository to test accessibility issues with Cypress.
 
