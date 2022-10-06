@@ -2,21 +2,22 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/mwaz/accessibility-testing-with-cypress/tree/fix%2Faccessibility-violations.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mwaz/accessibility-testing-with-cypress/tree/fix%2Faccessibility-violations)
 
-A repository to test accessibility issues with Cypress. 
+A repository to test accessibility issues with Cypress.
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
 ## Set up instructions.
 
 ### 1. Clone app and install dependencies.
+
 ```bash
 # Clone repository
-git clone https://github.com/mwaz/accessibility-testing-with-cypress.
+git clone https://github.com/CIRCLECI-GWP/accessibility-testing-using-cypress
 
-# CD into the directory 
+# CD into the directory
 cd accessibility-testing-with-cypress
 
-# Install dependencies 
+# Install dependencies
 npm install
 ```
 
@@ -43,7 +44,7 @@ npx cypress run
 ```bash
 # checkout 'fix/accessibility-violations' branch using git on cloned repository
 
-git checkout main
+git checkout fix/accessibility-violations
 
 # run test command
 npx cypress run
