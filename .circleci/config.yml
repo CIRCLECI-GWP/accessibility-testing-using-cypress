@@ -1,10 +1,9 @@
 version: 2.1
 orbs:
-  cypress: cypress-io/cypress@1
+  cypress: cypress-io/cypress@3.1.2
 workflows:
   build:
     jobs:
       - cypress/run:
-          start: npm start
-          wait-on: 'http://localhost:3000'
-          command: npx cypress run --headless
+          start-command: npm start
+          cypress-command: npx cypress run --headless
